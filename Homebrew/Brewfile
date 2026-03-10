@@ -1,22 +1,66 @@
 tap "pear-devs/pear"
+tap "sozercan/repo"
+# Run your GitHub Actions locally
+brew "act"
+# Command-line interactive controller for Kubernetes
 brew "click"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
+# Distributed revision control system
+brew "git"
+# Ruby version manager
+brew "rbenv"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# JavaScript toolchain manager for reproducible environments
 brew "volta"
+# Menu bar tool to limit maximum charging percentage
 cask "aldente"
+# Enable Windows-like alt-tab
 cask "alt-tab"
-cask "brave-browser"
+# Utility that prevents the system from going to sleep
+cask "caffeine"
+# Drivers for DisplayLink docks, adapters and monitors
 cask "displaylink"
+# Collaborative team software
 cask "figma"
+# Web browser
 cask "firefox"
-cask "fliqlo"
+# Screen colour temperature controller
+cask "flux-app"
+# Web browser
 cask "google-chrome"
+# HTTP and GraphQL Client
 cask "insomnia"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Software for Logitech devices
 cask "logi-options+"
+# Utility to extend trackpad functionality
 cask "middleclick"
+# Tool to control external monitor brightness & volume
+cask "monitorcontrol"
+# Pear Desktop App
 cask "pear-devs/pear/pear-desktop"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Application to control your PlayStation 4 or PlayStation 5
 cask "sony-ps-remote-play"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
+# Rust-based terminal
 cask "warp"
 vscode "alexandersage.angular1-code-snippets"
 vscode "angular.ng-template"
@@ -40,6 +84,7 @@ vscode "google.gemini-cli-vscode-ide-companion"
 vscode "humao.rest-client"
 vscode "johnpapa.angular2"
 vscode "jprestidge.theme-material-theme"
+vscode "jsayol.firebase-explorer"
 vscode "lihui.vs-color-picker"
 vscode "mongodb.mongodb-vscode"
 vscode "ms-python.debugpy"
@@ -65,6 +110,7 @@ vscode "stylelint.vscode-stylelint"
 vscode "teabyii.ayu"
 vscode "thekalinga.bootstrap4-vscode"
 vscode "thomaspink.theme-github"
+vscode "tonybaloney.vscode-pets"
 vscode "unifiedjs.vscode-mdx"
 vscode "vincaslt.highlight-matching-tag"
 vscode "vivaxy.vscode-conventional-commits"
