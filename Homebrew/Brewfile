@@ -24,6 +24,10 @@ brew "volta"
 cask "aldente"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# Add apps to the menu bar
+cask "badgeify"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
 # Drivers for DisplayLink docks, adapters and monitors
@@ -32,6 +36,8 @@ cask "displaylink"
 cask "figma"
 # Web browser
 cask "firefox"
+# Flip clock screensaver
+cask "fliqlo"
 # Screen colour temperature controller
 cask "flux-app"
 # Web browser
@@ -48,10 +54,10 @@ cask "middleclick"
 cask "monitorcontrol"
 # Pear Desktop App
 cask "pear-devs/pear/pear-desktop"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
+cask "pearcleaner"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
-# Control your tools with a few keystrokes
-cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Application to control your PlayStation 4 or PlayStation 5
@@ -84,7 +90,6 @@ vscode "google.gemini-cli-vscode-ide-companion"
 vscode "humao.rest-client"
 vscode "johnpapa.angular2"
 vscode "jprestidge.theme-material-theme"
-vscode "jsayol.firebase-explorer"
 vscode "lihui.vs-color-picker"
 vscode "mongodb.mongodb-vscode"
 vscode "ms-python.debugpy"
